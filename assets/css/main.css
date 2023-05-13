@@ -1461,7 +1461,7 @@ textarea.form-control, textarea.form-control:focus {
     border-top-left-radius: 6px;
     display: table-cell;
     height: 100%;
-    padding: 25px;
+    padding: 5px;
     vertical-align: middle;
     width: 120px;
 }
