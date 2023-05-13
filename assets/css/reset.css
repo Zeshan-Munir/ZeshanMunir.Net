@@ -1,12 +1,16 @@
 /* Box sizing rules */
 *,
 *::before,
-*::after { box-sizing: border-box; }
+*::after {
+    box-sizing: border-box;
+}
 
 /* Remove default padding */
 
 ul,
-ol { padding: 0; }
+ol {
+    padding: 0;
+}
 
 /* Remove default margin */
 
@@ -23,7 +27,9 @@ figure,
 figcaption,
 blockquote,
 dl,
-dd { margin: 0; }
+dd {
+    margin: 0;
+}
 
 /* Set core body defaults */
 
@@ -37,11 +43,15 @@ body {
 /* Remove list styles on ul, ol elements with a class attribute */
 
 ul[class],
-ol[class] { list-style: none; }
+ol[class] {
+    list-style: none;
+}
 
 /* A elements that don't have a class get default styles */
 
-a:not([class]) { text-decoration-skip-ink: auto; }
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
 
 /* Make images easier to work with */
 
@@ -52,14 +62,18 @@ img {
 
 /* Natural flow and rhythm in articles by default */
 
-article > * + * { margin-top: 1em; }
+article > * + * {
+    margin-top: 1em;
+}
 
 /* Inherit fonts for inputs and buttons */
 
 input,
 button,
 textarea,
-select { font: inherit; }
+select {
+    font: inherit;
+}
 
 /* Remove all animations and transitions for people that prefer not to see them */
 
